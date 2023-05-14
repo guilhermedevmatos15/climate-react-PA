@@ -1,0 +1,36 @@
+.Card {
+   margin-top: 20px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 0px;
+   flex-wrap: wrap;
+}
+
+.Card.result {
+   margin-top: 10px;
+}
+.Card.result h1 {
+   font-weight: 600;
+   font-size: 2.2rem;
+   line-height: 2.7rem;
+}
+.Card.result h2 {
+   font-weight: 400;
+   font-size: 1.3rem;
+}
+.Card.result p {
+   margin-top: 13px;
+   font-weight: 300;
+}
+
+.Card.error img {
+   margin-top: 10px;
+   width: 150px;
+}
+.Card.error p {
+   margin-top: 20px;
+   font-size: 1.2rem;
+}
